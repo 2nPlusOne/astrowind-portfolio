@@ -24,6 +24,8 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
 
+  base: '/astrowind-portfolio/',
+
   integrations: [
     tailwind({
       applyBaseStyles: false,
