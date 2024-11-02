@@ -24,8 +24,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   output: 'static',
 
-  site: 'https://pages.rwebb.dev',
-  base: '/astrowind-portfolio/',
+  site: 'https://2nPlusOne.github.io',
 
   integrations: [
     tailwind({
